@@ -1,0 +1,132 @@
+
+
+/* # Base Typography
+================================================== */
+
+// Font Smoothing
+html{
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		color: #414142;
+		font-family: "MaisonBold", Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		letter-spacing:-1px;}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 58px; line-height: 52px; margin-bottom: 90px;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 26px; }
+	h3 { font-family: "MaisonMedium", Helvetica, Arial, sans-serif; font-size: 24px; line-height: 28px; margin-bottom: 30px; letter-spacing:0px;}
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+
+p{
+    font-family: "MaisonBook", Arial, sans-serif;
+    color:#000000;
+    font-size:20px;
+    line-height:34px;
+}
+
+
+/* #Font Face
+================================================== */
+
+@font-face {
+    font-family: 'AileronLight';
+    src: url('../fonts/aileron-light-webfont.eot');
+    src: url('../fonts/aileron-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-light-webfont.woff') format('woff'),
+         url('../fonts/aileron-light-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-light-webfont.svg#AileronLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AileronThin';
+    src: url('../fonts/aileron-thin-webfont.eot');
+    src: url('../fonts/aileron-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-thin-webfont.woff') format('woff'),
+         url('../fonts/aileron-thin-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-thin-webfont.svg#AileronLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AileronBold';
+    src: url('../fonts/aileron-bold-webfont.eot');
+    src: url('../fonts/aileron-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-bold-webfont.woff') format('woff'),
+         url('../fonts/aileron-bold-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-bold-webfont.svg#AileronLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AileronRegular';
+    src: url('../fonts/aileron-regular-webfont.eot');
+    src: url('../fonts/aileron-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-regular-webfont.woff') format('woff'),
+         url('../fonts/aileron-regular-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-regular-webfont.svg#AileronLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+$main_font: 'AileronThin';
+
+
+// Icooon
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?46qknk');
+    src:    url('../fonts/icomoon.eot?46qknk#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?46qknk') format('truetype'),
+        url('../fonts/icomoon.woff?46qknk') format('woff'),
+        url('../fonts/icomoon.svg?46qknk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shield:before {
+    content: "\e900";
+}
+.icon-ex:before {
+    content: "\e901";
+}
+.icon-arrow:before {
+    content: "\e902";
+}
+.icon-flag:before {
+    content: "\e903";
+}
+.icon-price-tag:before {
+    content: "\e904";
+}
+.icon-comp:before {
+    content: "\e905";
+}
+.icon-world:before {
+    content: "\e906";
+}
+
+

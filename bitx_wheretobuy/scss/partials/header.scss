@@ -1,0 +1,25 @@
+.title {
+	font-family: 'AileronThin';
+	font-size: 62px;
+}
+.header {
+  margin-bottom: 45px;
+}
+.detect:hover, .detect:focus {
+    background: #292A68;
+    // border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.detect {
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.detect:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #292A68;
+    border: 0px;
+    border-radius: 100px;
+}

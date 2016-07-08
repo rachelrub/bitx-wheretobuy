@@ -1,0 +1,294 @@
+@media (max-width: 992px) {
+	.title {
+		font-size: 45px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .alt-coin-trader {
+    position: relative;
+    width: 30%;
+    bottom: 293px;
+    right: 132px;
+  }
+  .icex {
+    width: 30%;
+    right: 128px;
+  }
+  .content-ice3x {
+    margin-left: 160px;
+    font-size: 14px;
+  }
+  .content-alt-coin {
+    margin-left: 160px;
+    font-size: 14px;
+  }
+  .Ice3X {
+    margin-left: 160px;
+  }
+  .AltCoin {
+    margin-left: 160px;
+  }
+  .computer {
+    width: 85%;
+  }
+  .more {
+  margin-left: 32px;
+  }
+  .sub_card{
+    h3 {
+      font-size: 22px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .change-country {
+    font-size: 12px;
+  }
+  .bitx-base {
+    border-radius: 0 0 10px 10px;
+
+    position: relative;
+    top:40px;
+  }
+  .b-base2 {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    position: relative;
+    top:40px;
+  }
+  .other-base2 {
+    width: 100%;
+    height:340px;
+  }
+  .other-base1 {
+    width: 100%;
+    height:340px;
+  }
+  .learn-more {
+    bottom: 300px;
+  }
+  .others{
+    padding: 0px;
+  }
+  .ex {
+    position:relative;
+    top: -10px;
+  }
+  .Ice3X {
+    margin-left: 15px;
+    position: relative;
+    top: 175px;
+  }
+  .content-ice3x {
+    margin-left: 15px;
+    font-size: 14px;
+    position: relative;
+    top: 170px;
+  }
+  .AltCoin-all {
+    bottom: 5px;
+  }
+  .content-alt-coin {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  .AltCoin {
+    margin-left: 15px;
+  }
+  .alt-coin-trader {
+    position: relative;
+    width: 50%;
+    bottom: 275px;
+    right: 0px;
+  }
+  .BitX {
+    margin-top: 13px;
+  }
+  .icex {
+    width: 50%;
+    right: 0;
+    bottom: 120px;
+  }
+  .bottom-content {
+    bottom: 100px;
+    margin-top: 80px;
+  }
+  .getting-started {
+    font-size: 36px;
+    position: relative;
+    top: 15px;
+  }
+  .visual {
+    bottom: 443px;
+  }
+  .content {
+    font-size: 14px;
+  }
+  .more {
+  margin-left: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .change-country {
+    font-size: 9px;
+    text-align:center;
+    position: relative;
+    right: 25%;
+  }
+  .border {
+    width: 100%;
+  }
+  .bitx-base {
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    top:40px;
+  }
+  .other-base2 {
+    width: 100%;
+    height:340px;
+  }
+  .other-base1 {
+    width: 100%;
+    height:340px;
+  }
+  .learn-more {
+    bottom: 300px;
+  }
+  .ex {
+    position:relative;
+    top: 20px;
+    right: 30px;
+  }
+  .Ice3X {
+    margin-left: 15px;
+    position: relative;
+    top: 195px;
+  }
+  .icex {
+    width: 50%;
+    right: 0;
+    bottom: 120px;
+  }
+  .content-ice3x {
+    margin-left: 15px;
+    font-size: 14px;
+    position: relative;
+    top: 190px;
+  }
+  .AltCoin-all {
+    bottom: 5px;
+  }
+  .content-alt-coin {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  .AltCoin {
+    margin-left: 15px;
+  }
+  .alt-coin-trader {
+    position: relative;
+    width: 50%;
+    bottom: 275px;
+    right: 0px;
+  }
+  .BitX {
+    margin-top: 13px;
+  }
+  .getting-started {
+    font-size: 34px;
+    margin-top: 40px;
+  }
+  .content {
+    font-size: 14px;
+  }
+  .get-started {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .providers {
+    margin: 48px 0 53px 0;
+  }
+  .learn-more {
+    margin: 37px 0 0 0;
+    padding-bottom: 48px;
+  }
+}
+@media (max-width: 480px) {
+	.title{
+		margin: 40px auto;
+	}
+  .bottom-content {
+    margin-top: 50px;
+  }
+  .getting-started {
+    font-size: 26px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .getting-started {
+    margin-bottom: 0px;
+  }
+	.base{
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.sub_card, .full_card{
+		height: auto;
+		padding: 0;
+		max-width: 320px;
+		margin: 0 auto 30px auto;
+	}
+	.full_card{
+		.trans_bg_main{
+			padding-bottom: 10px;
+			height: auto;
+		}
+		.left_img_main{
+			border-radius: 8px 8px 0 0;
+		}
+		.trans_bg_main{
+			border-radius: 0 0 8px 8px;
+		}
+	}
+	.sub_card {
+		.trans_bg{
+			height: auto;
+			padding-bottom: 10px;
+		}
+		.left_img{
+			border-radius: 8px 8px 0 0;
+		}
+		.trans_bg{
+			border-radius: 0 0 8px 8px;
+		}
+	}
+	.item{
+		max-width: 320px;
+	   margin: 0 auto;
+	}
+}
+@media (max-width: 330px) {
+  .ex {
+    position:relative;
+    top: 33px;
+  }
+  .getting-started {
+    margin: 50px 0 -28px 0;
+  }
+  .icon {
+    margin-left: 10px;
+    img {
+      margin-right: 7px;
+    }
+  }
+}
+@media (min-width: 1480px){
+	.container {
+    width: 1020px;
+	}
+}

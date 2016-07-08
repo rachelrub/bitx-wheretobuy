@@ -1,0 +1,26 @@
+@media (max-width-width: 1224px) {
+  .title {
+    font-size: 40px; }
+
+  .map {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../map_2016-06-27/map.png");
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover; } }
+@media (min-width: 768px) and (max-width: 1224px) {
+  .detect {
+    width: 240px;
+    height: 40px; } }
+@media (min-width: 480px) and (max-width: 768px) {
+  .detect {
+    width: 190;
+    height: 35px; } }
+@media (max-width: 480px) {
+  .detect {
+    width: 150px;
+    height: 30px;
+    float: center; } }
